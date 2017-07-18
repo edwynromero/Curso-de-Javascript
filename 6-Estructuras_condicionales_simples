@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script>
+/*
+PROBLEMAS
+Se ingresan tres notas de un alumno, si el promedio es mayor o igual a siete mostrar el mensaje 'Promocionado'. Tener en cuenta que para obtener el promedio debemos operar suma=nota1+nota2+nota3; y luego hacer promedio=suma/3;
+Cuando cargamos una nota y queremos convertir inmediatamente el valor ingresado a entero podemos hacer:
+nota1=prompt('Ingrese primer nota:','');
+nota1=parseInt(nota1);
+*/
+var nota1;
+var nota2;
+var nota3;
+var promedio;
+nota1 = prompt("Ingrese la primera nota");
+nota1 = parseInt(nota1);
+nota2 = prompt("Ingrese la segunda nota");
+nota2 = parseInt(nota2);
+nota3 = prompt("Ingrese la tercera nota");
+nota3 = parseInt(nota3);
+
+suma = nota1 + nota2 + nota3;
+promedio = suma/3;
+
+if (promedio >= 7){
+	alert("Usted ha sido promocionado");
+} else 
+{
+alert("Usted no ha sido promocionado");
+}
+
+
+
+/* Solicitar que se ingrese dos veces una clave. Mostrar un mensaje si son iguales (tener en cuenta que para ver si dos variables tienen el mismo valor almacenado debemos utilizar el operador ==)
+*/
+
+
+</script>	
+
+</body>
+</html>
