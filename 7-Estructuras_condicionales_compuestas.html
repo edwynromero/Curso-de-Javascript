@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+Realizar un programa que lea por teclado dos números, si el primero es mayor al segundo informar su suma y diferencia, en caso contrario informar el producto y la división del primero respecto al segundo. */
+
+var n1;
+var n2;
+
+n1 = prompt('Ingrese el primer numero');
+n1 = parseInt(n1);
+n2 = prompt('Ingrese el segundo numero');
+n2 = parseInt(n2);
+
+if(n1 > n2)
+{
+	alert('La suma es: '+ (n1 + n2)+ " La diferencia es: "+ (n1 - n2));
+
+
+}else if(n2 > n1)
+{
+	alert('La suma es: '+ n1 * n2+ " La diferencia es: "+ n1 / n2);	
+}else
+alert('Son iguales lo dos valores');
+
+
+
+/*
+Se ingresan tres notas de un alumno, si el promedio es mayor o igual a 4 mostrar un mensaje 'regular', sino 'reprobado'.
+*/
+
+/*
+Se ingresa por teclado un número positivo de uno o dos dígitos (1..99) mostrar un mensaje indicando si el número tiene uno o dos dígitos (recordar de convertir a entero con parseInt para preguntar posteriormente por una variable entera). Tener en cuenta qué condición debe cumplirse para tener dos dígitos, un número entero.  */
+
+	</script>
+</body>
+</html>

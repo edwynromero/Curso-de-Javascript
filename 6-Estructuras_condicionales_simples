@@ -13,6 +13,7 @@ Cuando cargamos una nota y queremos convertir inmediatamente el valor ingresado 
 nota1=prompt('Ingrese primer nota:','');
 nota1=parseInt(nota1);
 */
+/*
 var nota1;
 var nota2;
 var nota3;
@@ -34,10 +35,24 @@ if (promedio >= 7){
 alert("Usted no ha sido promocionado");
 }
 
-
+*/
 
 /* Solicitar que se ingrese dos veces una clave. Mostrar un mensaje si son iguales (tener en cuenta que para ver si dos variables tienen el mismo valor almacenado debemos utilizar el operador ==)
 */
+var clave1;
+var clave2;
+
+clave1 = prompt("Ingrese la clave");
+clave2 = prompt("Ingrese de nuevo la clave");
+
+if(clave1 == clave2){
+
+alert("Las claves son  correctas");
+
+}else
+{
+	alert("las claves no son las mismas porfavor corregir");
+}
 
 
 </script>	
