@@ -13,9 +13,23 @@ var n1;
 var n2;
 var n3;
 
-n1 =  
-n2 =
-n3 =
+n1 = prompt('Ingrese el primer numero');
+n2 = prompt('Ingrese el segundo numero');
+n3 = prompt('Ingrese el tercer numero');
+
+if(n1 > n2 && n1 > n3)
+{
+ alert('El numero mayor es el primero');
+} else if(n2 > n1 && n2 > n3)
+{
+	alert('El numero mayor es el segundo');
+}else if(n3 > n1 && n3 > n2)
+{
+	alert('El numero mayor es el tercero');
+}
+
+
+
 
 
 
@@ -30,7 +44,7 @@ Confeccionar un programa que permita cargar un número entero positivo de hasta 
 /*
 De un postulante a un empleo, que realizó un test de capacitación, se obtuvo la siguiente información: nombre del postulante, cantidad total de preguntas que se le realizaron y cantidad de preguntas que contestó correctamente. Se pide confeccionar un programa que lea los datos del postulante e informe el nivel del mismo según el porcentaje de respuestas correctas que ha obtenido, y sabiendo que:
 Nivel superior:	Porcentaje>=90%.
-Nivel medio:	Porcentaje>=75% y <90%.
+Nivel medio:	Porcentaje>=75% y <90%. 
 Nivel regular:	Porcentaje>=50% y <75%.
 Fuera de nivel:	Porcentaje<50%.
 		*/
